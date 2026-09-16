@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="bg-[#0066B3] py-16 sm:py-20 lg:py-24"
+      className="bg-[#0D9484] py-16 sm:py-20 lg:py-24"
     >
       <div className="mx-auto max-w-[1440px] px-5 sm:px-8 lg:px-10 xl:px-16">
 
@@ -59,7 +59,7 @@ export default function Contact() {
           <div className="rounded-2xl bg-white p-6 shadow-xl sm:p-8 lg:p-10">
 
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#0066B3]">
+              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#0D9484]">
                 Send an Enquiry
               </p>
 
@@ -106,7 +106,7 @@ export default function Contact() {
                     id="contact-phone"
                     type="tel"
                     placeholder="+91"
-                    className="w-full rounded-lg border border-slate-200 px-4 py-3 text-sm outline-none transition placeholder:text-slate-400 focus:border-[#0066B3] focus:ring-2 focus:ring-[#0066B3]/10"
+                    className="w-full rounded-lg border border-slate-200 px-4 py-3 text-sm outline-none transition placeholder:text-slate-400 focus:border-[#0D9484] focus:ring-2 focus:ring-[#0D9484]/10"
                   />
                 </div>
 
@@ -122,7 +122,7 @@ export default function Contact() {
                     id="contact-email"
                     type="email"
                     placeholder="you@example.com"
-                    className="w-full rounded-lg border border-slate-200 px-4 py-3 text-sm outline-none transition placeholder:text-slate-400 focus:border-[#0066B3] focus:ring-2 focus:ring-[#0066B3]/10"
+                    className="w-full rounded-lg border border-slate-200 px-4 py-3 text-sm outline-none transition placeholder:text-slate-400 focus:border-[#0D9484] focus:ring-2 focus:ring-[#0D9484]/10"
                   />
                 </div>
 
@@ -141,14 +141,14 @@ export default function Contact() {
                   id="contact-message"
                   rows={5}
                   placeholder="Tell us how we can help..."
-                  className="w-full resize-none rounded-lg border border-slate-200 px-4 py-3 text-sm outline-none transition placeholder:text-slate-400 focus:border-[#0066B3] focus:ring-2 focus:ring-[#0066B3]/10"
+                  className="w-full resize-none rounded-lg border border-slate-200 px-4 py-3 text-sm outline-none transition placeholder:text-slate-400 focus:border-[#0D9484] focus:ring-2 focus:ring-[#0D9484]/10"
                 />
               </div>
 
               {/* Submit */}
               <button
                 type="submit"
-                className="w-full rounded-lg bg-[#0066B3] px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-[#005493]"
+                className="w-full rounded-lg bg-[#0D9484] px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-[#07584f]"
               >
                 Send Enquiry
               </button>

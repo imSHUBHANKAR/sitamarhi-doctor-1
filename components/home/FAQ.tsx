@@ -48,13 +48,13 @@ export default function FAQ() {
       <div className="mx-auto grid max-w-[1440px] gap-12 px-5 sm:px-8 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20 lg:px-12">
         {/* Left Content */}
         <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#0066B3]">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#0D9484]">
             Frequently Asked Questions
           </p>
 
           <h2 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
             Questions?
-            <span className="block text-[#0066B3]">
+            <span className="block text-[#0D9484]">
               We Have Answers.
             </span>
           </h2>
@@ -64,7 +64,7 @@ export default function FAQ() {
             requests before contacting the clinic.
           </p>
 
-          <div className="mt-8 rounded-2xl bg-[#0066B3] p-6">
+          <div className="mt-8 rounded-2xl bg-[#0D9484] p-6">
             <p className="text-sm font-semibold text-white">
               Still have a question?
             </p>
@@ -75,7 +75,7 @@ export default function FAQ() {
 
             <Link
               href="/appointment"
-              className="mt-5 inline-flex rounded-lg bg-white px-5 py-3 text-sm font-semibold text-[#0066B3] transition-all hover:shadow-lg"
+              className="mt-5 inline-flex rounded-lg bg-white px-5 py-3 text-sm font-semibold text-[#0D9484] transition-all hover:shadow-lg"
             >
               Request Appointment
             </Link>
@@ -107,7 +107,7 @@ export default function FAQ() {
                   </span>
 
                   <span
-                    className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#EAF4FB] text-lg font-medium text-[#0066B3] transition-transform duration-300 ${
+                    className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#EAF4FB] text-lg font-medium text-[#0D9484] transition-transform duration-300 ${
                       isOpen ? "rotate-45" : ""
                     }`}
                   >

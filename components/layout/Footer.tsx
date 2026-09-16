@@ -18,7 +18,7 @@ const usefulLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-950 text-white">
+    <footer className="bg-[#012e29] text-white">
 
       {/* Main Footer */}
       <div className="mx-auto max-w-[1440px] px-5 py-14 sm:px-8 lg:px-10 lg:py-16 xl:px-16">
@@ -32,7 +32,7 @@ export default function Footer() {
               href="#home"
               className="inline-flex items-center gap-3"
             >
-              <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#0066B3]">
+              <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#0D9484]">
                 <span className="text-xl font-bold">
                   +
                 </span>
@@ -57,7 +57,7 @@ export default function Footer() {
 
             <Link
               href="/appointment"
-              className="mt-6 inline-flex rounded-lg bg-[#0066B3] px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#005493]"
+              className="mt-6 inline-flex rounded-lg bg-[#0D9484] px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#07584f]"
             >
               Book an Appointment
             </Link>

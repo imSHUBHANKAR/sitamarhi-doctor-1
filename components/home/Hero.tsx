@@ -9,21 +9,37 @@ export default function Hero() {
       className="relative overflow-hidden bg-white"
     >
       {/* Background Decoration */}
+      <div className="pointer-events-none absolute inset-0 z-0">
+        <img
+          src="/images/icons/medical-background.png"
+          alt=""
+          aria-hidden="true"
+          className="
+            absolute
+            inset-0
+            h-full
+            w-full
+            object-cover
+            object-center
+            opacity-[0.08]
+          "
+        />
+      </div>
       <div className="pointer-events-none absolute -right-32 -top-32 h-80 w-80 rounded-full bg-[#EAF4FB] blur-3xl" />
       <div className="pointer-events-none absolute -bottom-32 -left-32 h-72 w-72 rounded-full bg-[#F1F8FC] blur-3xl" />
 
       <div className="relative mx-auto grid min-h-150 max-w-360 grid-cols-1 items-center gap-10 px-5 py-12 sm:px-8 sm:py-16 lg:grid-cols-2 lg:gap-14 lg:px-10 lg:py-20 xl:px-16">
         
-        {/* =====================================================
+        {/* ====================bg-[#EAF4FB]==bg-[#F1F8FC]================================
             LEFT CONTENT
         ====================================================== */}
         <div className="order-2 max-w-2xl lg:order-1">
 
           {/* Specialty Badge */}
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-[#CFE5F5] bg-[#F4FAFE] px-3.5 py-2">
-            <span className="h-2 w-2 rounded-full bg-[#0066B3]" />
+            <span className="h-2 w-2 rounded-full bg-[#0D9484]" />
 
-            <span className="text-[11px] font-semibold uppercase tracking-[0.12em] text-[#0066B3] sm:text-xs">
+            <span className="text-[11px] font-semibold uppercase tracking-[0.12em] text-[#0D9484] sm:text-xs">
               Consultant & Specialist
             </span>
           </div>
@@ -31,7 +47,7 @@ export default function Hero() {
           {/* Doctor Name */}
           <h1 className="max-w-xl text-4xl font-bold leading-[1.08] tracking-[-0.035em] text-slate-900 sm:text-5xl lg:text-[54px] xl:text-[60px]">
             Dr. Your Doctor
-            <span className="mt-1 block text-[#0066B3]">
+            <span className="mt-1 block text-[#0D9484]">
               Specialist Physician
             </span>
           </h1>
@@ -46,14 +62,14 @@ export default function Hero() {
           {/* Qualifications */}
           <div className="mt-6 flex flex-wrap gap-x-6 gap-y-3 text-xs font-medium text-slate-600 sm:text-sm">
             <div className="flex items-center gap-2">
-              <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#E8F4FB] text-[#0066B3]">
+              <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#E8F4FB] text-[#0D9484]">
                 ✓
               </span>
               10+ Years Experience
             </div>
 
             <div className="flex items-center gap-2">
-              <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#E8F4FB] text-[#0066B3]">
+              <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#E8F4FB] text-[#0D9484]">
                 ✓
               </span>
               Expert Consultation
@@ -65,7 +81,7 @@ export default function Hero() {
 
             <Link
               href="/appointment"
-              className="inline-flex min-h-12 items-center justify-center rounded-md bg-[#0066B3] px-6 text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#005493] hover:shadow-md"
+              className="inline-flex min-h-12 items-center justify-center rounded-md bg-[#0D9484] px-6 text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#07584f] hover:shadow-md"
             >
               Book an Appointment
               
@@ -92,7 +108,7 @@ export default function Hero() {
 
             <a
               href="tel:+919999999999"
-              className="inline-flex min-h-12 items-center justify-center rounded-md border border-slate-300 bg-white px-6 text-sm font-semibold text-slate-700 transition-all duration-200 hover:border-[#0066B3] hover:text-[#0066B3]"
+              className="inline-flex min-h-12 items-center justify-center rounded-md border border-slate-300 bg-white px-6 text-sm font-semibold text-slate-700 transition-all duration-200 hover:border-[#0D9484] hover:text-[#0D9484]"
             >
               Contact Doctor
             </a>
@@ -142,7 +158,7 @@ export default function Hero() {
           <div className="relative w-full max-w-140">
 
             {/* Main Blue Shape */}
-            <div className="absolute inset-x-4 bottom-0 top-8 rounded-4xl bg-[#0066B3] sm:inset-x-8" />
+            <div className="absolute inset-x-4 bottom-0 top-8 rounded-4xl bg-[#0D9484] sm:inset-x-8" />
 
             {/* Decorative Circle */}
             <div className="absolute right-3 top-0 h-24 w-24 rounded-full border-12 border-white/20 sm:right-8 sm:h-32 sm:w-32" />
@@ -161,8 +177,8 @@ export default function Hero() {
             </div>
 
             {/* Qualification Card */}
-            <div className="absolute bottom-5 left-0 w-47.5 rounded-xl border border-white/60 bg-white/95 p-4 shadow-xl backdrop-blur-sm sm:bottom-8 sm:left-2 sm:w-[220px]">
-              <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#0066B3]">
+            <div className="absolute bottom-5 left-0 w-47.5 rounded-xl border border-white/60 bg-white/95 p-4 shadow-xl/30 backdrop-blur-sm sm:bottom-8 sm:left-2 sm:w-[220px]">
+              <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#0D9484]">
                 Professional Qualification
               </p>
 
@@ -176,8 +192,8 @@ export default function Hero() {
             </div>
 
             {/* Experience Badge */}
-            <div className="absolute right-0 top-24 hidden rounded-xl border border-white/60 bg-white/95 px-4 py-3 shadow-xl backdrop-blur-sm sm:block">
-              <p className="text-lg font-bold text-[#0066B3]">
+            <div className="absolute right-0 top-24 hidden rounded-xl border border-white/60 bg-white/95 px-4 py-3 shadow-xl/30 backdrop-blur-sm sm:block">
+              <p className="text-lg font-bold text-[#0D9484]">
                 10+
               </p>
 

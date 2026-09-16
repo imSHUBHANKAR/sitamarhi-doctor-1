@@ -9,7 +9,7 @@ export default function TopBar() {
 
         {/* Left - Announcement */}
         <div className="hidden items-center gap-2 text-[10px] font-medium text-slate-600 sm:flex md:text-[11px]">
-          <span className="inline-flex h-5 items-center rounded-sm bg-[#0066B3] px-2 text-[9px] font-semibold uppercase tracking-wide text-white">
+          <span className="inline-flex h-5 items-center rounded-sm bg-[#0D9484] px-2 text-[9px] font-semibold uppercase tracking-wide text-white">
             Important
           </span>
 
@@ -21,7 +21,7 @@ export default function TopBar() {
 
         {/* Mobile Announcement */}
         <div className="flex items-center text-[9px] font-medium text-slate-600 sm:hidden">
-          <span className="mr-2 inline-flex h-5 items-center rounded-sm bg-[#0066B3] px-2 text-[8px] font-semibold uppercase tracking-wide text-white">
+          <span className="mr-2 inline-flex h-5 items-center rounded-sm bg-[#0D9484] px-2 text-[8px] font-semibold uppercase tracking-wide text-white">
             Notice
           </span>
 
@@ -34,7 +34,7 @@ export default function TopBar() {
           {/* Phone */}
           <Link
             href="tel:+919999999999"
-            className="group flex items-center gap-1.5 text-[10px] font-medium text-slate-600 transition-colors hover:text-[#0066B3] md:text-[11px]"
+            className="group flex items-center gap-1.5 text-[10px] font-medium text-slate-600 transition-colors hover:text-[#0D9484] md:text-[11px]"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ export default function TopBar() {
           {/* Email */}
           <Link
             href="mailto:doctor@example.com"
-            className="hidden items-center gap-1.5 text-[10px] font-medium text-slate-600 transition-colors hover:text-[#0066B3] md:flex md:text-[11px]"
+            className="hidden items-center gap-1.5 text-[10px] font-medium text-slate-600 transition-colors hover:text-[#0D9484] md:flex md:text-[11px]"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

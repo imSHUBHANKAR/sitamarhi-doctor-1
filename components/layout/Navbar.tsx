@@ -35,9 +35,9 @@ export default function Navbar() {
           <Image
             src="/images/icons/doctor-logo.svg"
             alt="Dr. Mohit Chowdhury"
-            width={70}
-            height={20}
-            className="h-auto w-[80px] object-contain sm:w-[100px]"
+            width={50}
+            height={10}
+            className="h-auto w-[40px] object-contain sm:w-[70px]"
             priority
           />
         </Link>
@@ -49,7 +49,7 @@ export default function Navbar() {
               <Link
                 key={link.name}
                 href={link.href}
-                className="relative whitespace-nowrap text-[13px] font-medium text-slate-700 transition-colors duration-200 hover:text-[#0066B3]"
+                className="relative whitespace-nowrap text-[13px] font-medium text-slate-700 transition-colors duration-200 hover:text-[#0D9484]"
               >
                 {link.name}
               </Link>
@@ -59,7 +59,7 @@ export default function Navbar() {
           {/* Appointment Button */}
           <Link
             href="/appointment"
-            className="ml-6 inline-flex items-center justify-center rounded-md bg-[#0066B3] px-5 py-3 text-[13px] font-semibold text-white shadow-sm transition-all duration-200 hover:bg-[#005493] hover:shadow-md"
+            className="ml-6 inline-flex items-center justify-center rounded-md bg-[#0D9484] px-5 py-3 text-[13px] font-semibold text-white shadow-sm transition-all duration-200 hover:bg-[#07584f] hover:shadow-md"
           >
             Book Appointment
           </Link>
@@ -123,7 +123,7 @@ export default function Navbar() {
                 key={link.name}
                 href={link.href}
                 onClick={closeMenu}
-                className="border-b border-slate-100 py-3.5 text-sm font-medium text-slate-700 transition-colors hover:text-[#0066B3]"
+                className="border-b border-slate-100 py-3.5 text-sm font-medium text-slate-700 transition-colors hover:text-[#0D9484]"
               >
                 {link.name}
               </Link>
@@ -134,7 +134,7 @@ export default function Navbar() {
           <Link
             href="/appointment"
             onClick={closeMenu}
-            className="mt-4 flex w-full items-center justify-center rounded-md bg-[#0066B3] px-5 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-[#005493]"
+            className="mt-4 flex w-full items-center justify-center rounded-md bg-[#0D9484] px-5 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-[#07584f]"
           >
             Book an Appointment
           </Link>

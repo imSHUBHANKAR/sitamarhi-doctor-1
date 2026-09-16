@@ -14,16 +14,16 @@ export default function AboutDoctor() {
             SECTION HEADING
         ========================== */}
         <div className="mb-10 max-w-3xl sm:mb-12">
-          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.16em] text-[#0066B3]">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.16em] text-[#0D9484]">
             About the Doctor
           </p>
 
           <h2 className="text-3xl font-bold tracking-[-0.025em] text-slate-900 sm:text-4xl lg:text-[42px]">
             Compassionate Care Backed by
-            <span className="text-[#0066B3]"> Experience & Expertise</span>
+            <span className="text-[#0D9484]"> Experience & Expertise</span>
           </h2>
 
-          <div className="mt-4 h-[2px] w-16 bg-[#0066B3]" />
+          <div className="mt-4 h-[2px] w-16 bg-[#0D9484]" />
         </div>
 
         {/* =========================
@@ -35,7 +35,7 @@ export default function AboutDoctor() {
           <div className="rounded-2xl bg-white p-6 shadow-sm sm:p-8">
 
             <div className="mb-7 flex items-center gap-4">
-              <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#E8F4FB] text-[#0066B3]">
+              <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#E8F4FB] text-[#0D9484]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -96,7 +96,7 @@ export default function AboutDoctor() {
             {/* CTA */}
             <Link
               href="/appointment"
-              className="mt-7 inline-flex w-full items-center justify-center rounded-md bg-[#0066B3] px-6 py-3.5 text-sm font-semibold text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#005493] hover:shadow-md"
+              className="mt-7 inline-flex w-full items-center justify-center rounded-md bg-[#0D9484] px-6 py-3.5 text-sm font-semibold text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#07584f] hover:shadow-md"
             >
               Book an Appointment
 
@@ -127,7 +127,7 @@ export default function AboutDoctor() {
 
             <h3 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
               Dedicated to Better Health,
-              <span className="text-[#0066B3]"> Every Day</span>
+              <span className="text-[#0D9484]"> Every Day</span>
             </h3>
 
             <div className="mt-5 space-y-4 text-sm leading-7 text-slate-600 sm:text-[15px]">
@@ -179,7 +179,7 @@ export default function AboutDoctor() {
             </div>
 
             {/* Bottom Note */}
-            <div className="mt-8 border-l-2 border-[#0066B3] bg-white/70 px-5 py-4">
+            <div className="mt-8 border-l-2 border-[#0D9484] bg-white/70 px-5 py-4">
               <p className="text-sm font-medium leading-6 text-slate-700">
                 "My goal is not only to treat a condition, but to understand
                 the person behind it and provide care that is practical,
@@ -235,7 +235,7 @@ function HighlightCard({
     <div className="group rounded-xl border border-slate-200 bg-white p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-[#B8D9EE] hover:shadow-sm">
 
       <div className="mb-3 flex items-center gap-2">
-        <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[#E8F4FB] text-xs font-bold text-[#0066B3]">
+        <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[#E8F4FB] text-xs font-bold text-[#0D9484] transition-colors duration-200 group-hover:bg-[#0D9484] group-hover:text-white">
           ✓
         </span>
 

@@ -78,13 +78,13 @@ export default function Specializations() {
       <div className="mx-auto max-w-[1440px] px-5 sm:px-8 lg:px-12">
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center">
-          <span className="inline-flex items-center rounded-full border border-[#BFDDF0] bg-[#EAF4FB] px-4 py-2 text-sm font-semibold text-[#0066B3]">
+          <span className="inline-flex items-center rounded-full border border-[#BFDDF0] bg-[#EAF4FB] px-4 py-2 text-sm font-semibold text-[#0D9484]">
             Areas of Expertise
           </span>
 
           <h2 className="mt-5 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
             Specialized Care for Your
-            <span className="text-[#0066B3]"> Health Needs</span>
+            <span className="text-[#0D9484]"> Health Needs</span>
           </h2>
 
           <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg">
@@ -102,13 +102,13 @@ export default function Specializations() {
             >
               {/* Number */}
               <div className="flex items-start justify-between">
-                <span className="text-sm font-semibold tracking-wider text-[#0066B3]">
+                <span className="text-sm font-semibold tracking-wider text-[#0D9484]">
                   {item.number}
                 </span>
 
-                <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#EAF4FB] transition-colors duration-300 group-hover:bg-[#0066B3]">
+                <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#EAF4FB] transition-colors duration-300 group-hover:bg-[#07584f]">
                   <svg
-                    className="h-5 w-5 text-[#0066B3] transition-colors duration-300 group-hover:text-white"
+                    className="h-5 w-5 text-[#0D9484] transition-colors duration-300 group-hover:text-white"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
@@ -143,14 +143,14 @@ export default function Specializations() {
                     key={point}
                     className="flex items-start gap-3 text-sm text-slate-700"
                   >
-                    <span className="mt-1.5 flex h-1.5 w-1.5 shrink-0 rounded-full bg-[#0066B3]" />
+                    <span className="mt-1.5 flex h-1.5 w-1.5 shrink-0 rounded-full bg-[#0D9484]" />
                     <span>{point}</span>
                   </li>
                 ))}
               </ul>
 
               {/* Bottom accent */}
-              <div className="absolute bottom-0 left-0 h-1 w-0 bg-[#0066B3] transition-all duration-300 group-hover:w-full" />
+              <div className="absolute bottom-0 left-0 h-1 w-0 bg-[#0D9484] transition-all duration-300 group-hover:w-full" />
             </article>
           ))}
         </div>
@@ -169,7 +169,7 @@ export default function Specializations() {
 
           <Link
             href="/appointment"
-            className="inline-flex shrink-0 items-center justify-center rounded-xl bg-[#0066B3] px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:bg-[#005493] hover:shadow-md"
+            className="inline-flex shrink-0 items-center justify-center rounded-xl bg-[#0D9484] px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:bg-[#07584f] hover:shadow-md"
           >
             Book an Appointment
             <svg

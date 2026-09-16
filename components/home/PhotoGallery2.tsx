@@ -32,13 +32,13 @@ export default function PhotoGallery2() {
         {/* Header */}
         <div className="flex flex-col justify-between gap-5 md:flex-row md:items-end">
           <div className="max-w-2xl">
-            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#0066B3]">
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#0D9484]">
               Our Gallery
             </p>
 
             <h2 className="mt-3 text-3xl font-bold tracking-[-0.03em] text-slate-900 sm:text-4xl lg:text-[44px]">
               A Look Inside Our
-              <span className="text-[#0066B3]"> Healthcare Practice</span>
+              <span className="text-[#0D9484]"> Healthcare Practice</span>
             </h2>
           </div>
 

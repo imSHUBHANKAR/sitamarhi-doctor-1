@@ -41,13 +41,13 @@ export default function WorkingHours() {
 
           {/* Left */}
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#0066B3]">
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#0D9484]">
               Clinic Hours
             </p>
 
             <h2 className="mt-3 text-3xl font-bold tracking-[-0.03em] text-slate-900 sm:text-4xl">
               When You Can
-              <span className="text-[#0066B3]"> Visit Us</span>
+              <span className="text-[#0D9484]"> Visit Us</span>
             </h2>
 
             <p className="mt-5 text-sm leading-7 text-slate-600 sm:text-base">
@@ -85,7 +85,7 @@ export default function WorkingHours() {
                     className={`text-sm font-semibold ${
                       item.time === "Closed"
                         ? "text-slate-400"
-                        : "text-[#0066B3]"
+                        : "text-[#0D9484]"
                     }`}
                   >
                     {item.time}

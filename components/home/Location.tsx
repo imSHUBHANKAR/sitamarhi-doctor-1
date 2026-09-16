@@ -10,13 +10,13 @@ export default function Location() {
 
         {/* Heading */}
         <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#0066B3]">
+          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#0D9484]">
             Visit Our Clinic
           </p>
 
           <h2 className="mt-3 text-3xl font-bold tracking-[-0.03em] text-slate-900 sm:text-4xl lg:text-[44px]">
             Conveniently Located for
-            <span className="text-[#0066B3]"> Your Care</span>
+            <span className="text-[#0D9484]"> Your Care</span>
           </h2>
 
           <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -92,7 +92,7 @@ export default function Location() {
                   href="https://www.google.com/maps"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center rounded-lg bg-[#0066B3] px-5 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-[#005493]"
+                  className="inline-flex items-center rounded-lg bg-[#0D9484] px-5 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-[#07584f]"
                 >
                   Get Directions
 
@@ -133,7 +133,7 @@ function LocationItem({
 }) {
   const content = (
     <div className="flex gap-4">
-      <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white text-[#0066B3]">
+      <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white text-[#0D9484]">
         {icon === "location" && (
           <svg
             className="h-5 w-5"

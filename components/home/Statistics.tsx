@@ -33,13 +33,13 @@ export default function Statistics() {
 
         {/* Section Header */}
         <div className="mx-auto mb-10 max-w-2xl text-center sm:mb-12">
-          <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.16em] text-[#0066B3] sm:text-xs">
+          <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.16em] text-[#0D9484] sm:text-xs">
             Experience & Trust
           </p>
 
           <h2 className="text-3xl font-bold tracking-[-0.03em] text-slate-900 sm:text-4xl lg:text-[40px]">
             Trusted Experience,
-            <span className="text-[#0066B3]"> Proven Care</span>
+            <span className="text-[#0D9484]"> Proven Care</span>
           </h2>
 
           <p className="mt-4 text-sm leading-6 text-slate-500 sm:text-[15px]">
@@ -66,7 +66,7 @@ export default function Statistics() {
               `}
             >
               {/* Number */}
-              <div className="text-3xl font-bold tracking-[-0.04em] text-[#0066B3] sm:text-4xl">
+              <div className="text-3xl font-bold tracking-[-0.04em] text-[#0D9484] sm:text-4xl">
                 {stat.value}
               </div>
 
@@ -81,7 +81,7 @@ export default function Statistics() {
               </p>
 
               {/* Bottom Indicator */}
-              <div className="mx-auto mt-5 h-[2px] w-8 rounded-full bg-[#0066B3] transition-all duration-300 group-hover:w-14" />
+              <div className="mx-auto mt-5 h-[2px] w-8 rounded-full bg-[#0D9484] transition-all duration-300 group-hover:w-14" />
             </div>
           ))}
 

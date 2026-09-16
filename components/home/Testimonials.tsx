@@ -31,13 +31,13 @@ export default function Testimonials() {
       <div className="mx-auto max-w-[1440px] px-5 sm:px-8 lg:px-12">
         {/* Header */}
         <div className="mx-auto max-w-3xl text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#0066B3]">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#0D9484]">
             Patient Testimonials
           </p>
 
           <h2 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
             Trusted by Patients,
-            <span className="text-[#0066B3]"> Valued by Families</span>
+            <span className="text-[#0D9484]"> Valued by Families</span>
           </h2>
 
           <p className="mt-5 text-sm leading-7 text-slate-600 sm:text-base">
@@ -63,7 +63,7 @@ export default function Testimonials() {
                 {Array.from({ length: testimonial.rating }).map((_, index) => (
                   <span
                     key={index}
-                    className="text-sm text-[#0066B3]"
+                    className="text-sm text-[#0D9484]"
                   >
                     ★
                   </span>
@@ -89,7 +89,7 @@ export default function Testimonials() {
 
         {/* Bottom Rating */}
         <div className="mt-10 flex flex-col items-center justify-center gap-2 text-center">
-          <div className="flex gap-1 text-[#0066B3]">
+          <div className="flex gap-1 text-[#0D9484]">
             ★ ★ ★ ★ ★
           </div>
 

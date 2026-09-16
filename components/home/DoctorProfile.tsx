@@ -21,7 +21,7 @@ export default function DoctorProfile() {
           </div>
 
           {/* Experience Card */}
-          <div className="absolute -bottom-5 left-4 rounded-xl bg-[#0066B3] px-5 py-4 text-white shadow-lg sm:left-8">
+          <div className="absolute -bottom-5 left-4 rounded-xl bg-[#0D9484] px-5 py-4 text-white shadow-lg sm:left-8">
             <p className="text-2xl font-bold">10+</p>
             <p className="text-xs text-white/80">
               Years of Experience
@@ -31,14 +31,14 @@ export default function DoctorProfile() {
 
         {/* Content */}
         <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#0066B3]">
+          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#0D9484]">
             Meet Your Doctor
           </p>
 
           <h2 className="mt-3 text-3xl font-bold tracking-[-0.03em] text-slate-900 sm:text-4xl lg:text-[44px]">
             Professional Expertise.
             <br />
-            <span className="text-[#0066B3]">
+            <span className="text-[#0D9484]">
               Personal Attention.
             </span>
           </h2>
@@ -74,7 +74,7 @@ export default function DoctorProfile() {
 
           <Link
             href="/appointment"
-            className="mt-8 inline-flex items-center justify-center rounded-lg bg-[#0066B3] px-6 py-3.5 text-sm font-semibold text-white transition-all duration-200 hover:bg-[#005493]"
+            className="mt-8 inline-flex items-center justify-center rounded-lg bg-[#0D9484] px-6 py-3.5 text-sm font-semibold text-white transition-all duration-200 hover:bg-[#005493]"
           >
             Schedule a Consultation
           </Link>
@@ -92,7 +92,7 @@ function ProfileItem({
   value: string;
 }) {
   return (
-    <div className="border-l-2 border-[#0066B3] pl-4">
+    <div className="border-l-2 border-[#0D9484] pl-4">
       <p className="text-xs font-medium uppercase tracking-wide text-slate-400">
         {title}
       </p>
